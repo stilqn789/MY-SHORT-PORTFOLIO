@@ -1,0 +1,275 @@
+body{
+    width: 100%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-navbar{
+    position: relative;
+}
+.accounts{
+    margin-left: 5%;
+
+}
+.accounts a{
+    text-decoration: none;
+    
+}
+
+.github{
+    color: black;
+    margin-right: 10px;
+}
+.linkedln{
+    color: black;
+}
+
+.my-name{
+    margin: 0 auto;
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    
+}
+
+.accounts-second{
+    margin-right: 3%;
+
+    
+}
+
+.accounts-second a{
+    text-decoration: none;
+}
+
+.cool-image{
+background-image:url('images/coding-3013602_1920.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+background-position: 60% 40%; 
+width: 100%;
+height: 500px;
+position: relative;
+margin-bottom: 1%;
+
+}
+
+.image-onTop{
+    background:black;
+background-size:cover;
+opacity: 0.5; 
+width: 100%;
+height: 500px;
+position: relative;
+}
+
+.centered {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    opacity: 1;
+    position: absolute;
+    top: 40%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    ;
+
+  }
+
+  .profile-pic{
+      width: 15%;
+      margin: 0 auto;
+      height: 250px;
+      background-image: url('images/profile-pic.jpg');
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 1%;
+  }
+
+  .card{
+      width: 70%;
+      margin: 0 auto;
+      border: none;
+      background: rgb(241, 241, 241);
+      
+  }
+
+  .card-background{
+      background: rgb(241, 241, 241);
+      padding: 5%;
+      margin-bottom: 3%;
+  }
+
+  .certifiate-image:hover{
+    transition: ease-in;
+    transform: scale(1.3);
+    transition-duration: 0.3s;
+    opacity: 1;
+  }
+
+.my-skills{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+  .flex-box-1{
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex: 1;
+      flex-wrap: wrap;
+    margin-bottom: 7%;
+  }
+
+  .skill-card{
+      background-color: #e9e4f0;
+      justify-content: space-around;
+      margin-bottom: 2%;
+      opacity: 0.8;
+      text-align: center;
+      padding: 2%;
+  }
+
+  .skill-card:hover{
+    transition: ease-in;
+    transform: scale(1.3);
+    transition-duration: 0.3s;
+    opacity: 1;
+  }
+
+  .about-me{
+      text-align: center;
+      margin-bottom: 4%;
+  }
+
+  .about-me-1{
+      margin-bottom: 2%;
+      text-align: center;
+  }
+
+
+  .projects{
+      margin-bottom: 3%;
+  }
+
+  
+
+  .my-project{
+      width: 70%;
+      margin: 0 auto;
+      padding: 2%;
+      background-color: #e9e4f0;
+  }
+
+.my-project img{
+    height: 350px;
+}
+
+
+  .my-work{
+      text-align: center;
+      margin-bottom: 2%;
+  }
+
+
+
+  .my-programming-story{
+      width: 90%;
+      margin: 0 auto;
+      padding: 2%;
+      background-color: rgb(241, 241, 241);
+  }
+
+  .my-programming-story-heading{
+      text-align: center;
+      
+}
+
+.my-programming-story-background{
+    width: 100%;
+    background-color: rgb(241, 241, 241)
+}
+
+@media only screen and (max-width: 1200px) {
+    .centered { 
+        top: 25%;
+        left: 49%;
+      }
+
+      .my-project{
+          width: 100%;
+      }
+      .my-project img{
+        height: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    html{
+        font-size: 15px;
+    }
+    
+    .profile-pic{
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 12px;
+    }
+    .profile-pic{
+        width: 30%;
+    }
+  
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 11px;
+    }
+    .profile-pic{
+        width: 35%;
+    }
+    
+    .accounts-second{
+        display: none;
+    }
+    .accounts{
+        margin-left: 1%;
+    
+    }
+    .centered {   
+        top: 32%;
+        left: 49%;
+      }
+      
+}
+
+@media only screen and (max-width: 400px) {
+  .my-name{
+      width: 100%;
+      text-align: center;
+  }
+    .accounts{
+        width: 100%;
+        text-align: center;
+    }
+    .github{
+        
+        margin-right: 6px;
+    }
+
+    .centered {
+        
+        font-size: 2.5rem;
+       
+        top: 45%;
+        left: 49%;
+       
+    
+      }
+}
+
